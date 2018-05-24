@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Apr 27 13:06:09 2018
+Created on  13:06:09 2018
 判断验证码
 @author: ZJKfly
 """
