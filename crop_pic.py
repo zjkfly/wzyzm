@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Apr 27 12:11:00 2018
+Created on Fri  12:11:00 2018
 分割图片
 @author: ZJKfly
 """

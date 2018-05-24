@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Apr 27 16:01:33 2018
+Created on Fri 16:01:33 2018
 图像矢量化
 @author: ZJKfly
 """

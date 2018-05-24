@@ -13,6 +13,8 @@ f= open(filename,'wb')
 f.write(r.content)
 f.close()
 
+#批量下载图片文件并写入文本
+
 url = "http://wzjw.sdwz.cn/ImageValidate.ashx?temp=jggmc5og"
 r =requests.get(url)
 filename = str(random.randint(0,10000))+".gif"
