@@ -5,8 +5,6 @@ Created on  13:06:09 2018
 @author: ZJKfly
 """
 from PIL import Image
-import time
-import random
 import math
 import os
 
@@ -47,10 +45,10 @@ for i in range(1,10):
         imageset.append({i:temp})
 
 count = 0
-#对验证码图片进行切割
+#对验证码图片进行余弦相似度的对比，输出结果
 v = VectorCompare()
 
-im2 = Image.open('7855.gif')
+im2 = Image.open('9443.gif')
 im2.convert("P")
 letters = [[3,11],[15,23],[27,35],[39,47],[51,59]]
 print('验证码：')
